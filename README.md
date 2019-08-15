@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: Kubernetescluster
-platforms: java
-author: yaohaizh
+extensions:
+- services: Kubernetescluster
+- platforms: java
 ---
 
-## Getting Started with Kubernetescluster - Deploy Image From Container Registry To Kubernetes - in Java ##
+# Getting Started with Kubernetescluster - Deploy Image From Container Registry To Kubernetes - in Java #
 
 
   Azure Container Registry sample for deploying a container image to Azure Container Service with Kubernetes orchestration.
