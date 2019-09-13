@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Kubernetescluster
-- platforms: java
+description: "Azure Container Registry sample for deploying a container image to Azure Container Service with Kubernetes orchestration."
+urlFragment: aks-java-deploy-image-from-acr-to-kubernetes
 ---
 
 # Getting Started with Kubernetescluster - Deploy Image From Container Registry To Kubernetes - in Java #
