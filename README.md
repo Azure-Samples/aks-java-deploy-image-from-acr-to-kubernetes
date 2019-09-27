@@ -8,7 +8,7 @@ description: "Azure Container Registry sample for deploying a container image to
 urlFragment: aks-java-deploy-image-from-acr-to-kubernetes
 ---
 
-# Getting Started with Kubernetescluster - Deploy Image From Container Registry To Kubernetes - in Java
+# Deploy Image From Container Registry To Kubernetes (Java)
 
 
   Azure Container Registry sample for deploying a container image to Azure Container Service with Kubernetes orchestration.
