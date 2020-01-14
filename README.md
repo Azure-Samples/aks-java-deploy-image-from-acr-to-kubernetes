@@ -4,11 +4,12 @@ languages:
 - java
 products:
 - azure
-description: "Azure Container Registry sample for deploying a container image to Azure Container Service with Kubernetes orchestration."
-urlFragment: aks-java-deploy-image-from-acr-to-kubernetes
+extensions:
+- services: Kubernetescluster
+- platforms: java
 ---
 
-# Deploy Image From Container Registry To Kubernetes (Java)
+# Getting Started with Kubernetescluster - Deploy Image From Container Registry To Kubernetes - in Java #
 
 
   Azure Container Registry sample for deploying a container image to Azure Container Service with Kubernetes orchestration.
@@ -26,7 +27,7 @@ urlFragment: aks-java-deploy-image-from-acr-to-kubernetes
    - Create a Kubernetes replication controller using a container image from the Azure private registry from above and a load balancer service that will expose the app to the world
  
 
-## Running this Sample
+## Running this Sample ##
 
 To run this sample:
 
@@ -38,7 +39,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
     mvn clean compile exec:java
 
-## More information
+## More information ##
 
 [http://azure.com/java](http://azure.com/java)
 
